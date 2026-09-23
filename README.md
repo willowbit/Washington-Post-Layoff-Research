@@ -1,4 +1,4 @@
-# English-Independent-Study
+# Washington Post Layoff Research
 
 A python script tracking the outcomes of the 300+ Washington Post terminated employees. The script takes as input a folder of LinkedIn webpages (downloaded as .txt on a Firefox browser) and analyzes the data using RegEx to create a "Person" object for each profile. Each object includes a list of their past employment and education.
 
@@ -10,5 +10,5 @@ The script consists of four files:
 
 To Do:
 - [x] Scrape names, linkedin URL, employment, and education
-- [ ] Parse employment to mark pre-WaPo, WaPo, and post-WaPo positions
-- [ ] Incorporate RocketReach API to get person's emails and phone numbers
+- [x] Parse employment to mark pre-WaPo, WaPo, and post-WaPo positions
+- [ ] Add comments throughout code
